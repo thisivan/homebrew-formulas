@@ -1,7 +1,7 @@
 diff --git a/screen.c b/screen.c
 index 3dde3b4..6c55cd6 100644
---- a/src/screen.c
-+++ b/src/screen.c
+--- a/screen.c
++++ b/screen.c
 @@ -109,6 +109,11 @@
  
  #include "logfile.h"	/* islogfile, logfflush */
