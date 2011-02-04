@@ -4,7 +4,7 @@ Date: Fri, 4 Feb 2011 04:34:35 -0600
 Subject: [PATCH] Fix for snow leopard
 
 ---
- screen.c |   10 ++++++++++
+ screen-4.0.3/screen.c |   10 ++++++++++
  1 files changed, 10 insertions(+), 0 deletions(-)
 
 diff --git a/screen-4.0.3/screen.c b/screen-4.0.3/screen.c
