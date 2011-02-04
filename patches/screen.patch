@@ -4,13 +4,13 @@ Date: Fri, 4 Feb 2011 04:34:35 -0600
 Subject: [PATCH] Fix for snow leopard
 
 ---
- screen-4.0.3/screen.c |   10 ++++++++++
+ screen.c |   10 ++++++++++
  1 files changed, 10 insertions(+), 0 deletions(-)
 
-diff --git a/screen-4.0.3/screen.c b/screen-4.0.3/screen.c
+diff --git a/screen.c b/screen.c
 index 3dde3b4..6c55cd6 100644
---- a/screen-4.0.3/screen.c
-+++ b/screen-4.0.3/screen.c
+--- a/screen.c
++++ b/screen.c
 @@ -109,6 +109,11 @@
  
  #include "logfile.h"	/* islogfile, logfflush */
