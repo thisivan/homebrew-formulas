@@ -1,3 +1,12 @@
+From e00af144f5e18046d113304a6dacec8c70cb8e60 Mon Sep 17 00:00:00 2001
+From: Ivan Torres <mexpolk@gmail.com>
+Date: Fri, 4 Feb 2011 04:34:35 -0600
+Subject: [PATCH] Fix for snow leopard
+
+---
+ screen.c |   10 ++++++++++
+ 1 files changed, 10 insertions(+), 0 deletions(-)
+
 diff --git a/screen.c b/screen.c
 index 3dde3b4..6c55cd6 100644
 --- a/screen.c
@@ -26,3 +35,6 @@ index 3dde3b4..6c55cd6 100644
    /* 
     * This guarantees that the session owner is listed, even when we
     * start detached. From now on we should not refer to 'LoginName'
+-- 
+1.7.3.5
+
