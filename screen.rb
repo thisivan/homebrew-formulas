@@ -6,6 +6,12 @@ class Screen < Formula
   md5 '8506fd205028a96c741e4037de6e3c42'
   homepage 'http://www.gnu.org/software/screen/'
 
+  def patches
+    {
+      :p0 => 'https://github.com/mexpolk/homebrew-formulas/raw/master/patches/screen.patch',
+    }
+  end
+
   def install
     args = [
       "--prefix=#{prefix}",
