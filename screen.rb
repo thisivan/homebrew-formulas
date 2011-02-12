@@ -7,7 +7,7 @@ class Screen <Formula
   version '4.00.03'
 
   def patches
-    "http://trac.macports.org/raw-attachment/ticket/20862/screen-4.0.3-snowleopard.patch"
+    { :p0 => "http://trac.macports.org/raw-attachment/ticket/20862/screen-4.0.3-snowleopard.patch" }
   end
 
   def install
